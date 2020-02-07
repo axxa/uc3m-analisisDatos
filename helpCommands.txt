@@ -1,0 +1,10 @@
+
+setwd('D:/DEV/GIT_REPO/uc3m/my/uc3m-analisisDatos/introduccion_R')
+
+printVecInDescOrder(c(1,2,3,4,5))
+calcularSuavizadoExp(c(13,553,656,0.2))
+
+
+setwd('D:/DEV/GIT_REPO/uc3m/my/uc3m-analisisDatos/extraccion_datos/RScripts_exploracion')
+source('ExtraccionDatos.R')
+source('EjercicioExtraccionDatos.R')
