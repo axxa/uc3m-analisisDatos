@@ -5,6 +5,17 @@ printVecInDescOrder(c(1,2,3,4,5))
 calcularSuavizadoExp(c(13,553,656,0.2))
 
 
-setwd('D:/DEV/GIT_REPO/uc3m/my/uc3m-analisisDatos/extraccion_datos/RScripts_exploracion')
-source('ExtraccionDatos.R')
+setwd('D:/DEV/GIT_REPO/uc3m/my/uc3m-analisisDatos/practica1')
+source('practica1Solucion.R')
 source('EjercicioExtraccionDatos.R')
+source('Caso_DaxDataset.R')
+
+install.packages("installr")
+  install.packages("https://CRAN.R-project.org/package=TTR")
+  install.packages("stringr", repos='http://cran.us.r-project.org')
+
+install.packages('TTR',repos='https://CRAN.R-project.org')
+
+source("https://bioconductor.org/install")
+source("http://bioconductor.org/install/biocLite.R")
+BiocManager::install(version = "3.10")
