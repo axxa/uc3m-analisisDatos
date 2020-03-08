@@ -11,12 +11,14 @@ setwd('D:/DEV/GIT_REPO/uc3m/my/uc3m-analisisDatos/extraccion_datos/RScripts_expl
 
 setwd('D:/DEV/GIT_REPO/uc3m/my/uc3m-analisisDatos/practica1')
 
+setwd('D:/DEV/GIT_REPO/uc3m/my/uc3m-analisisDatos/practica2')
+
 rm(list = ls())
 source('practica1Solucion.R')
 source('EjercicioExtraccionDatos.R')
 source('Caso_DaxDataset.R')
 source('ejercicioNaiveBayes.R')
-
+source('practica2Solucion.R')
 
 install.packages("installr")
   install.packages("https://CRAN.R-project.org/package=TTR")
